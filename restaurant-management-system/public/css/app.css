@@ -1,0 +1,31 @@
+/* Page Loader */
+#loader {
+    /* display: none; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75) url('/Images/Eclipse-1s-200px.gif') no-repeat center center;
+    z-index: 3;
+}
+/* /home/tnu/Tanvi/Laravel/restaurant-management-system/public/Images/Eclipse-1s-200px.gif */
+
+/* Search bar Css */
+.country-search-bar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.search-group {
+    display: flex;
+}
+
+.btn-wrapper {
+    white-space: nowrap;
+}

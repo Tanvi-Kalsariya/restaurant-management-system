@@ -22,5 +22,9 @@ Route::get('/', function () {
 
 Auth::routes(['verify'=>true]);
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
-Route::get('/home',[CountryController::class, 'getCountryList']);
+// Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::controller(CountryController::class)->group(function(){
+    Route::get('/home','getCountryList')->name('getCountryList');
+    Route::get('addCountry','addCountry')->name('addCountry');
+    Route::get('/search','serchCountry')->name('serchCountry');
+});

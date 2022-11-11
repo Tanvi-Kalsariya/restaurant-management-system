@@ -12,7 +12,8 @@
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.0",
         "php-open-source-saver/jwt-auth": "^2.0",
-        "tymon/jwt-auth": "^1.0.0-beta.3@dev"
+        "tymon/jwt-auth": "^1.0.0-beta.3@dev",
+        "yajra/laravel-datatables-oracle": "^10.2"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
